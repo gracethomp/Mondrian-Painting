@@ -1,0 +1,65 @@
+.paintings {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.paint {
+    margin: 100px;
+    border: 30px solid rgb(255, 215, 145);
+}
+
+.paint > div {
+    background-color: #F0F1EC
+}
+
+.two-rows-combined {
+    grid-row: span 2;
+}
+
+.two-columns-combined {
+    grid-column: span 2;
+}
+
+.three-columns-combined {
+    grid-column: span 3;
+}
+
+.painting-1 {
+    display: grid;
+    grid-template-columns: 71px 213px 53.25px 53.25px 142px 71px;
+    grid-template-rows: 71px 36.5px 144.25px 73px 87.75px;
+    gap: 10px;
+    background-color: #000;
+}
+
+.painting-2 {
+    display: grid;
+    width: 748px;
+    height: 748px;
+    grid-template-columns: 320px 198px 153px 50px;
+    grid-template-rows: 414px 130px 155px 22px;
+    gap: 9px;
+    background-color: #000;
+}
+
+.paint > .yellow {
+    background-color: #F9D01E;
+}
+
+.paint > .red {
+    background-color: #E72F24;
+}
+
+.paint > .blue {
+    background-color: #004592;
+}
+
+.paint > .black {
+    background-color: #232629
+}
+
+#border-square {
+    border-bottom: 10px solid;
+}
